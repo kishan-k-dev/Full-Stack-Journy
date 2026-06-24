@@ -8,11 +8,21 @@
 
 # print(a)
 
-students = ["Pavan", "Rahul", "Manoj"]
+# students = ["Pavan", "Rahul", "Manoj"]
 
-marks = {
-    "Math": 95,
-    "Science": 90
-}
+# marks = {
+#     "Math": 95,
+#     "Science": 90
+# }
 
+# 
+# arr = [10,20,30]
+
+# arr[0] = 2200
+
+# print(arr)
+arr = [10,20,30,40,50]
+
+for p in arr:
+    print(p)
 
