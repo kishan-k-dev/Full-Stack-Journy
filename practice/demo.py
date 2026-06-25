@@ -21,8 +21,16 @@
 # arr[0] = 2200
 
 # print(arr)
-arr = [10,20,30,40,50]
+# arr = [10,20,30,40,50]
 
-for p in arr:
-    print(p)
+# for p in arr:
+#     print(p)
+
+# arr = [10,20,30,40,50]
+
+# target = 10
+
+# for i in range(len(arr)):
+#     if arr[i] == target:
+#         print("Found at index", i)
 
