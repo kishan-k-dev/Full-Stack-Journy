@@ -34,3 +34,15 @@
 #     if arr[i] == target:
 #         print("Found at index", i)
 
+# fruits = ["Apple", "Banana", "Mango"]
+
+# for _ in range(3):
+#   for fruit in fruits:
+#     print(fruit)
+
+fruits = ["Apple", "Banana", "Mango"]
+
+for i in range(2):
+    print(f"--- Iteration {i+1} ---")
+    for fruit in fruits:
+        print(fruit)
