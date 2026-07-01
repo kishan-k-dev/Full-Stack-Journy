@@ -40,9 +40,42 @@
 #   for fruit in fruits:
 #     print(fruit)
 
-fruits = ["Apple", "Banana", "Mango"]
+# fruits = ["Apple", "Banana", "Mango"]
 
-for i in range(2):
-    print(f"--- Iteration {i+1} ---")
-    for fruit in fruits:
-        print(fruit)
+# for i in range(2):
+#     print(f"--- Iteration {i+1} ---")
+#     for fruit in fruits:
+#         print(fruit)
+
+
+# class Student:
+
+#     name = "Pavan"
+#     age = 22
+
+# student=Student()
+# for i in range(len(student.name)):
+#     print(i)
+# print(student.name)
+
+
+# Student=[kishan,pavan,rhaa,khaa,ghh,shaa,jeee,ram,room,]
+
+
+class car:
+    EVcar=None
+    print("this is EV cars=",EVcar)
+    def __init__(self,name,brand,model):
+        self.K=name
+        self.A=brand
+        self.P=model
+        self.price=0
+
+kishan=car("BMW","AUDI","hello")
+print(kishan.K)
+print(kishan.A)
+print(kishan.P)
+print(kishan.price)
+
+instructor_1=car("Swift","MS","world")
+print(instructor_1.A,instructor_1.K)
