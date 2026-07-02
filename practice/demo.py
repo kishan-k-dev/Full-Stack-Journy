@@ -1,65 +1,65 @@
-#x = 10
-#print(id(x))
+# #x = 10
+# #print(id(x))
 
-# a = [1, 2, 3]
-# b = a
+# # a = [1, 2, 3]
+# # b = a
 
-# b.append(4)
+# # b.append(4)
 
-# print(a)
+# # print(a)
 
-# students = ["Pavan", "Rahul", "Manoj"]
+# # students = ["Pavan", "Rahul", "Manoj"]
 
-# marks = {
-#     "Math": 95,
-#     "Science": 90
-# }
+# # marks = {
+# #     "Math": 95,
+# #     "Science": 90
+# # }
 
-# 
-# arr = [10,20,30]
+# # 
+# # arr = [10,20,30]
 
-# arr[0] = 2200
+# # arr[0] = 2200
 
-# print(arr)
-# arr = [10,20,30,40,50]
+# # print(arr)
+# # arr = [10,20,30,40,50]
 
-# for p in arr:
-#     print(p)
+# # for p in arr:
+# #     print(p)
 
-# arr = [10,20,30,40,50]
+# # arr = [10,20,30,40,50]
 
-# target = 10
+# # target = 10
 
-# for i in range(len(arr)):
-#     if arr[i] == target:
-#         print("Found at index", i)
+# # for i in range(len(arr)):
+# #     if arr[i] == target:
+# #         print("Found at index", i)
 
-# fruits = ["Apple", "Banana", "Mango"]
+# # fruits = ["Apple", "Banana", "Mango"]
 
-# for _ in range(3):
-#   for fruit in fruits:
-#     print(fruit)
+# # for _ in range(3):
+# #   for fruit in fruits:
+# #     print(fruit)
 
-# fruits = ["Apple", "Banana", "Mango"]
+# # fruits = ["Apple", "Banana", "Mango"]
 
-# for i in range(2):
-#     print(f"--- Iteration {i+1} ---")
-#     for fruit in fruits:
-#         print(fruit)
-
-
-# class Student:
-
-#     name = "Pavan"
-#     age = 22
-
-# student=Student()
-# for i in range(len(student.name)):
-#     print(i)
-# print(student.name)
+# # for i in range(2):
+# #     print(f"--- Iteration {i+1} ---")
+# #     for fruit in fruits:
+# #         print(fruit)
 
 
-# Student=[kishan,pavan,rhaa,khaa,ghh,shaa,jeee,ram,room,]
+# # class Student:
+
+# #     name = "Pavan"
+# #     age = 22
+
+# # student=Student()
+# # for i in range(len(student.name)):
+# #     print(i)
+# # print(student.name)
+
+
+# # Student=[kishan,pavan,rhaa,khaa,ghh,shaa,jeee,ram,room,]
 
 
 class car:
@@ -70,12 +70,26 @@ class car:
         self.A=brand
         self.P=model
         self.price=0
+        
 
-kishan=car("BMW","AUDI","hello")
-print(kishan.K)
-print(kishan.A)
-print(kishan.P)
-print(kishan.price)
+    # kishan=car("BMW","AUDI","hello")
+    # print(kishan.K)
+    # print(kishan.A)
+    # print(kishan.P)
+    # print(kishan.price)
 
 instructor_1=car("Swift","MS","world")
 print(instructor_1.A,instructor_1.K)
+
+# def total(*numbers):
+#     print(numbers)
+
+# total("hjhjh",355)
+
+class Student(car):
+    print("this is student class")
+    print(self.A,self.K,self.P,self.price)
+
+student_1=Student("www","fgg","gfg")
+
+print(student_1)
