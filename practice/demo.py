@@ -62,34 +62,63 @@
 # # Student=[kishan,pavan,rhaa,khaa,ghh,shaa,jeee,ram,room,]
 
 
-class car:
-    EVcar=None
-    print("this is EV cars=",EVcar)
-    def __init__(self,name,brand,model):
-        self.K=name
-        self.A=brand
-        self.P=model
-        self.price=0
+# class car:
+#     EVcar=None
+#     print("this is EV cars=",EVcar)
+#     def __init__(self,name,brand,model):
+#         self.K=name
+#         self.A=brand
+#         self.P=model
+#         self.price=0
         
 
-    # kishan=car("BMW","AUDI","hello")
-    # print(kishan.K)
-    # print(kishan.A)
-    # print(kishan.P)
-    # print(kishan.price)
+#     # kishan=car("BMW","AUDI","hello")
+#     # print(kishan.K)
+#     # print(kishan.A)
+#     # print(kishan.P)
+#     # print(kishan.price)
 
-instructor_1=car("Swift","MS","world")
-print(instructor_1.A,instructor_1.K)
+# instructor_1=car("Swift","MS","world")
+# print(instructor_1.A,instructor_1.K)
 
-# def total(*numbers):
-#     print(numbers)
+# # def total(*numbers):
+# #     print(numbers)
 
-# total("hjhjh",355)
+# # total("hjhjh",355)
 
-class Student(car):
-    print("this is student class")
-    print(self.A,self.K,self.P,self.price)
+# class Student(car):
+#     print("this is student class")
+#     print(self.A,self.K,self.P,self.price)
 
-student_1=Student("www","fgg","gfg")
+# student_1=Student("www","fgg","gfg")
 
-print(student_1)
+# print(student_1)
+
+# numbers = [10, 20, 30, 40, 50]
+
+# numbers.remove(10)
+# kishan=numbers
+# kishan.append(70)
+
+# print(numbers)
+# print(numbers[0])      # First element
+# print(numbers[-1])     # Last element
+    
+# numbers=[10,20,30,40]
+# kishan=numbers
+# kishan.append(1)
+# print(numbers)
+# print(numbers[-1])
+# print(numbers[1])
+# print(kishan)
+# numbers=(1,2,3,4,5)
+
+# print(numbers)
+# print(numbers[-1])
+# print(len(numbers))
+name="KISHAN"
+city="banglore"
+print(name)
+print(name.lower())
+print(len(name))
+print(city.upper())
