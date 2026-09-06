@@ -1,0 +1,92 @@
+🐳 DOCKER LEARNING
+
+1.md — Docker Introduction & Basics
+   • What is Docker?
+   • Why Docker?
+   • Problems Docker solves
+   • Docker vs Virtual Machine
+   • Docker benefits
+   • Basic Docker terminology
+   • Basic Docker workflow
+
+2.md — Docker Architecture
+   • Docker Engine
+   • Docker Client
+   • Docker Daemon
+   • Docker Registry
+   • Docker Hub
+   • How Docker components communicate
+
+3.md — Docker Images
+   • What is an Image?
+   • Image layers
+   • Pulling images
+   • Building images
+   • Image tags
+   • Basic image commands
+
+4.md — Docker Containers
+   • What is a Container?
+   • Image vs Container
+   • Container lifecycle
+   • Creating/running/stopping/removing containers
+   • Container commands
+
+5.md — Dockerfile
+   • What is Dockerfile?
+   • FROM
+   • WORKDIR
+   • COPY
+   • RUN
+   • CMD
+   • EXPOSE
+   • ENV
+   • Build your first image
+
+6.md — Ports, Volumes & Environment Variables
+   • Port mapping
+   • Container storage
+   • Volumes
+   • Environment variables
+   • .env
+   • Basic security
+
+7.md — Docker Networks
+   • Why networking?
+   • Container-to-container communication
+   • Network types
+   • Creating/using Docker networks
+
+8.md — Docker Compose
+   • What is Docker Compose?
+   • docker-compose.yml
+   • Multiple containers
+   • FastAPI + MySQL example
+   • docker compose up/down
+
+9.md — Dockerizing a Real Python Project
+   • Dockerize Flask/FastAPI
+   • Connect MySQL
+   • .dockerignore
+   • Build & run
+   • Debugging
+
+10.md — Docker Hub & GitHub
+   • Docker Hub
+   • Push/pull images
+   • GitHub repository structure
+   • README documentation
+
+11.md — Docker Optimization & Security
+   • Image size
+   • Layer caching
+   • Multi-stage builds
+   • Secrets
+   • Security best practices
+
+12.md — Docker Project
+   • Build a complete containerized application
+   • FastAPI + MySQL
+   • Docker Compose
+   • Docker Hub
+   • GitHub documentation
