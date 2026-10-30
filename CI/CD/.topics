@@ -1,0 +1,10 @@
+File	Main topic	What we'll cover:
+
+1.md	CI/CD Fundamentals	CI, Continuous Delivery, Continuous Deployment, workflow
+2.md	GitHub Actions	Introduction, runners, workflows, jobs, steps, triggers
+3.md	YAML & Workflow Configuration	YAML basics and GitHub Actions workflow file
+4.md	Automated Python Testing	Dependencies, pytest, automated tests
+5.md	Docker CI/CD	Build Docker image and push to Docker Hub
+6.md	Automated Deployment	Deploy application to AWS EC2
+7.md	Complete CI/CD Project	Connect GitHub, Docker and AWS
+8.md	Revision & Interview Preparation	Important concepts and interview questions
